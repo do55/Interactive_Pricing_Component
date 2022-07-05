@@ -1,0 +1,37 @@
+.BillingInformation {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  position: relative;
+  justify-content: right;
+}
+
+p {
+  margin-right: 40px;
+  color: hsl(225, 20%, 60%);
+}
+
+.Yearly {
+  margin-left: 40px;
+}
+
+.Discount {
+  color: hsl(15, 100%, 70%);
+  background-color: rgba(255, 140, 102, 0.2);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+hr {
+  width: 80%;
+  border-top: rgba(205, 215, 238, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+  .BillingInformation {
+    padding: 0%;
+    justify-content: center;
+    transform: scale(0.7);
+    top: -12%;
+  }
+}

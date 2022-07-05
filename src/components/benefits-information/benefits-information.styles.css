@@ -1,0 +1,47 @@
+.BenefitsInformation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+ul {
+  color: hsl(225, 20%, 60%);
+  list-style-image: url("./icon-check.svg");
+  margin-left: 30px;
+}
+
+li {
+  text-align: left;
+  padding: 7px 5px;
+}
+
+button {
+  background-color: hsl(227, 35%, 25%);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  width: 70%;
+  height: 40%;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .BenefitsInformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.7);
+    position: relative;
+    top: -20%;
+  }
+
+  ul {
+    margin-left: -10px;
+  }
+
+  button {
+    align-items: center;
+    width: 70%;
+    height: 50px;
+  }
+}

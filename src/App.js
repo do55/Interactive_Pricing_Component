@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Circles from "./images/pattern-circles.svg";
+import PricingCard from "./components/pricing-card/pricing-card.component";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Simple, trafic-based pricing</h1>
+        <h2>Sign-up for our 30-day trial. No credit card required.</h2>
+        <img className="Circles" src={Circles} alt="circles" />
       </header>
+      <PricingCard />
     </div>
   );
 }

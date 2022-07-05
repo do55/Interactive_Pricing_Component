@@ -1,0 +1,102 @@
+.PricingCard {
+  background-color: white;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  z-index: 100;
+  width: 50vw;
+  height: 50vh;
+}
+
+.Labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.sliderToggle {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sliderToggle:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .sliderToggle {
+  background-color: hsl(174, 86%, 45%);
+}
+
+input:focus + .sliderToggle {
+  box-shadow: 0 0 1px hsl(174, 86%, 45%);
+}
+
+input:checked + .sliderToggle:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.sliderToggle.round {
+  border-radius: 34px;
+}
+
+.sliderToggle.round:before {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .PricingCard {
+    width: 95vw;
+    height: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -10%;
+  }
+
+  .Labels {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    position: relative;
+    top: -30px;
+    transform: scale(0.9);
+  }
+
+  .PricingSlider {
+    position: absolute;
+    top: 100px;
+  }
+}
