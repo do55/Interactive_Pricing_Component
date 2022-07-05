@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Interactive_Pricing_Component/static/css/main.be72d75c.css",
+    "main.js": "/Interactive_Pricing_Component/static/js/main.803926fa.js",
+    "static/js/787.0e04715a.chunk.js": "/Interactive_Pricing_Component/static/js/787.0e04715a.chunk.js",
+    "index.html": "/Interactive_Pricing_Component/index.html",
+    "static/media/icon-slider.svg": "/Interactive_Pricing_Component/static/media/icon-slider.cbca35e0d11c560ba351.svg",
+    "static/media/pattern-circles.svg": "/Interactive_Pricing_Component/static/media/pattern-circles.9f6ed14bb3b0084b05a9e72350bf40e4.svg",
+    "static/media/bg-pattern.svg": "/Interactive_Pricing_Component/static/media/bg-pattern.76d3fa7ddce078ad96b5.svg",
+    "static/media/icon-check.svg": "/Interactive_Pricing_Component/static/media/icon-check.83c38a48815855ecc2d7.svg",
+    "main.be72d75c.css.map": "/Interactive_Pricing_Component/static/css/main.be72d75c.css.map",
+    "main.803926fa.js.map": "/Interactive_Pricing_Component/static/js/main.803926fa.js.map",
+    "787.0e04715a.chunk.js.map": "/Interactive_Pricing_Component/static/js/787.0e04715a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be72d75c.css",
+    "static/js/main.803926fa.js"
+  ]
+}
